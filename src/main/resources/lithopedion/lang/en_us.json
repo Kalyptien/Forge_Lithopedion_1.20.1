@@ -1,0 +1,13 @@
+{
+  "creativetab.lithopedion_tab" : "Lithopedion",
+
+  "item.lithopedion.jade": "Jade",
+
+  "item.lithopedion.naga_heart": "Naga's Heart",
+  "item.lithopedion.oni_heart": "Oni's Heart",
+  "item.lithopedion.mermaid_heart": "Mermaid's Heart",
+  "item.lithopedion.tengu_heart": "Tengu's Heart",
+  "item.lithopedion.goblin_heart": "Goblin's Heart",
+
+  "entity.lithopedion.nagaskeleton": "Nagi Skeleton"
+}
