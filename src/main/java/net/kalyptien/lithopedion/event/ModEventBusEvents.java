@@ -11,8 +11,8 @@ import net.minecraftforge.fml.common.Mod;
 public class ModEventBusEvents {
 
     @SubscribeEvent
-    public static void registerAttributes(EntityAttributeCreationEvent event){
-        event.put(ModEntities.NAGASKELETON.get(), NagaSkeletonEntity.createAttribute().build());
+    public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
+        event.put(ModEntities.NAGASKELETON.get(), NagaSkeletonEntity.createAttribute());
     }
 
 }

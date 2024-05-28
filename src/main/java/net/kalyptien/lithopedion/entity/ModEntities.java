@@ -2,7 +2,6 @@ package net.kalyptien.lithopedion.entity;
 
 import net.kalyptien.lithopedion.LithopedionMod;
 import net.kalyptien.lithopedion.entity.custom.NagaSkeletonEntity;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
