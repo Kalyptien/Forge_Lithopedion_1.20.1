@@ -1,6 +1,7 @@
 package net.kalyptien.lithopedion;
 
 import net.kalyptien.lithopedion.item.ModItems;
+import net.kalyptien.lithopedion.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -27,6 +28,9 @@ public class ModCreativeModTabs {
                 output.accept(ModItems.MERMAID_HEART.get());
                 output.accept(ModItems.TENGU_HEART.get());
                 output.accept(ModItems.GOBLIN_HEART.get());
+
+                output.accept(ModBlocks.JADE_BLOCK.get());
+                output.accept(ModBlocks.DEEPSLATE_JADE_ORE.get());
             })
             .build());
 

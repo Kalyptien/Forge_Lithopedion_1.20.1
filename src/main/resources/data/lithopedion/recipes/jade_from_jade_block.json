@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lithopedion:jade_block"
+    }
+  ],
+  "result": {
+    "item": "lithopedion:jade",
+    "count": 9
+  }
+}

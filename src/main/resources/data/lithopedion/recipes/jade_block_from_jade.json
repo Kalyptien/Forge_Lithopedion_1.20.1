@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "lithopedion:jade"
+    }
+  },
+  "result": {
+    "item": "lithopedion:jade_block"
+  }
+}

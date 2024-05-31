@@ -1,8 +1,9 @@
 package net.kalyptien.lithopedion;
 
 import com.mojang.logging.LogUtils;
+import net.kalyptien.lithopedion.block.ModBlocks;
 import net.kalyptien.lithopedion.entity.ModEntities;
-import net.kalyptien.lithopedion.entity.client.NagaSkeletonRenderer;
+import net.kalyptien.lithopedion.entity.client.UndeadRenderer;
 import net.kalyptien.lithopedion.item.ModItems;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,6 +36,7 @@ public class LithopedionMod
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModEntities.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -61,7 +63,11 @@ public class LithopedionMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            EntityRenderers.register(ModEntities.NAGASKELETON.get(), NagaSkeletonRenderer::new);
+            EntityRenderers.register(ModEntities.NAGASKELETON.get(), UndeadRenderer::new);
+            EntityRenderers.register(ModEntities.ONISKELETON.get(), UndeadRenderer::new);
+            EntityRenderers.register(ModEntities.MERMAIDSKELETON.get(), UndeadRenderer::new);
+            EntityRenderers.register(ModEntities.GOBLINSKELETON.get(), UndeadRenderer::new);
+            EntityRenderers.register(ModEntities.TENGUSKELETON.get(), UndeadRenderer::new);
         }
     }
 }

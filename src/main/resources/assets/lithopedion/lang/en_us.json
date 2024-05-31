@@ -9,5 +9,12 @@
   "item.lithopedion.tengu_heart": "Tengu's Heart",
   "item.lithopedion.goblin_heart": "Goblin's Heart",
 
-  "entity.lithopedion.nagaskeleton": "Nagi Skeleton"
+  "block.lithopedion.jade_block": "Block of Jade",
+  "block.lithopedion.deepslate_jade_ore": "Deepslate Jade Ore",
+
+  "entity.lithopedion.nagaskeleton": "Naga Skeleton",
+  "entity.lithopedion.oniskeleton": "Oni Skeleton",
+  "entity.lithopedion.tenguskeleton": "Tengu Skeleton",
+  "entity.lithopedion.goblinskeleton": "Goblin Skeleton",
+  "entity.lithopedion.Mermaidskeleton": "Mermaid Skeleton"
 }
