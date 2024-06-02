@@ -2,7 +2,6 @@
 	"format_version": "1.8.0",
 	"animations": {
 		"misc.idle": {
-			"loop": true,
 			"animation_length": 10,
 			"bones": {
 				"Frag1": {
@@ -25,77 +24,159 @@
 					"rotation": {
 						"vector": ["math.cos(100 *  query.anim_time) * 3", 0, 0]
 					}
+				},
+				"Skull": {
+					"rotation": {
+						"vector": ["- math.cos(100 *  query.anim_time) * 3", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(100 *  query.anim_time)", 0]
+					}
+				},
+				"Frag10": {
+					"rotation": {
+						"vector": ["- math.cos(100 *  query.anim_time) * 3", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(100 *  query.anim_time)", 0]
+					}
+				},
+				"Chest": {
+					"rotation": {
+						"vector": ["- math.cos(100 *  query.anim_time) * 3", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(100 *  query.anim_time)", 0]
+					}
+				},
+				"Frag2": {
+					"rotation": {
+						"vector": ["- math.cos(100 *  query.anim_time) * 3", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(100 *  query.anim_time)", 0]
+					}
+				},
+				"Frag3": {
+					"rotation": {
+						"vector": ["- math.cos(100 *  query.anim_time) * 3", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(100 *  query.anim_time)", 0]
+					}
+				},
+				"ArmR": {
+					"rotation": {
+						"vector": ["- math.cos(100 *  query.anim_time) * 3", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(100 *  query.anim_time)", 0]
+					}
 				}
 			}
 		},
 		"move.walk": {
-			"loop": true,
-			"animation_length": 1,
+			"animation_length": 3,
 			"bones": {
-				"Frag1": {
+				"Head": {
+					"rotation": {
+						"vector": ["math.cos(100 *  query.anim_time) ", 0, 0]
+					},
+					"position": {
+						"vector": [0, "- math.cos(100 *  query.anim_time) * 0.3 ", 0]
+					}
+				},
+				"Jawbone": {
 					"rotation": {
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
-						"0.2083": {
-							"vector": [10, 0, 0]
+						"1.5": {
+							"vector": ["20 + math.cos(100 *  query.anim_time) * 10", 0, 0]
 						},
-						"0.9583": {
+						"2.4583": {
 							"vector": [0, 0, 0]
 						}
 					},
 					"position": {
-						"0.0": {
-							"vector": [0, 0, 0]
-						},
-						"0.2083": {
-							"vector": [0, 0, 4]
-						},
-						"0.4167": {
-							"vector": [0, -2, 4]
-						},
-						"0.6667": {
-							"vector": [0, -1, -9],
-							"easing": "easeOutBack"
-						},
-						"0.9583": {
-							"vector": [0, 0, 0]
-						}
+						"vector": [0, "- math.cos(100 *  query.anim_time) * 0.3 ", 0]
+					}
+				},
+				"Frag10": {
+					"rotation": {
+						"vector": ["math.cos(100 *  query.anim_time) * 5 ", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(100 *  query.anim_time) * 0.5 ", 0]
+					}
+				},
+				"Chest": {
+					"rotation": {
+						"vector": ["- math.cos(100 *  query.anim_time) * 5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(100 *  query.anim_time)", 0]
+					}
+				},
+				"Frag1": {
+					"rotation": {
+						"vector": ["math.cos(100 *  query.anim_time) * 5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(100 *  query.anim_time)", 0]
+					}
+				},
+				"Frag2": {
+					"rotation": {
+						"vector": ["math.cos(100 *  query.anim_time) * 5 ", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(100 *  query.anim_time) * 0.5 ", 0]
+					}
+				},
+				"Frag5": {
+					"rotation": {
+						"vector": [0, "math.cos(350 *  query.anim_time) * 30 ", 0]
+					}
+				},
+				"Frag7": {
+					"rotation": {
+						"vector": [0, "math.cos(350 *  query.anim_time) * 30 ", 0]
+					},
+					"position": {
+						"vector": ["math.cos(350 *  query.anim_time) * 3  ", 0, 0]
+					}
+				},
+				"Frag8": {
+					"rotation": {
+						"vector": [0, "- math.cos(340 *  query.anim_time) * 30 ", 0]
+					},
+					"position": {
+						"vector": ["math.cos(350 *  query.anim_time) * 3  ", 0, 0]
+					}
+				},
+				"ArmR": {
+					"rotation": {
+						"vector": ["- math.cos(100 *  query.anim_time) * 3", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.cos(100 *  query.anim_time)", 0]
 					}
 				},
 				"ArmL": {
 					"rotation": {
-						"0.0": {
-							"vector": [0, 0, 0]
-						},
-						"0.2083": {
-							"vector": [15, 0, 0]
-						},
-						"0.6667": {
-							"vector": [-22.5, 0, 0],
-							"easing": "easeOutBack"
-						},
-						"0.9583": {
-							"vector": [0, 0, 0]
-						}
+						"vector": ["- math.cos(100 *  query.anim_time) * 3", 0, 0]
 					},
 					"position": {
-						"0.0": {
-							"vector": [0, 0, 0]
-						},
-						"0.2083": {
-							"vector": [0, 0, 6]
-						},
-						"0.4167": {
-							"vector": [0, -3, 2]
-						},
-						"0.6667": {
-							"vector": [0, -3, -10],
-							"easing": "easeOutBack"
-						},
-						"0.9583": {
-							"vector": [0, 0, 0]
-						}
+						"vector": [0, "math.cos(100 *  query.anim_time)", 0]
+					}
+				},
+				"Frag6": {
+					"rotation": {
+						"vector": [0, "- math.cos(340 *  query.anim_time) * 30 ", 0]
+					},
+					"position": {
+						"vector": ["math.cos(350 *  query.anim_time) * 3  ", 0, 0]
 					}
 				}
 			}

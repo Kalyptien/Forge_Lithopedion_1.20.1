@@ -1,0 +1,9 @@
+// 1.20.1	2024-06-02T16:30:21.3925258	Recipes
+8207fa7b8bbec6cf3037786a2bab6fdcc5857f1d data/lithopedion/advancements/recipes/misc/jade.json
+d4513cc113f1857c0af5c13268c07f777cd66862 data/lithopedion/advancements/recipes/misc/jade_block.json
+57f83ec0ecae3bead819d0cf63bcf93617fccfb7 data/lithopedion/advancements/recipes/misc/jade_from_blasting_deepslate_jade_ore.json
+a647559006502067b9b760bce3ae33abed0a10f5 data/lithopedion/advancements/recipes/misc/jade_from_smelting_deepslate_jade_ore.json
+8af1eddd91677e687b4539495a9e8b12e36f52e8 data/lithopedion/recipes/jade.json
+14873f54da0814bf2745cc7d7007dd55b535ce61 data/lithopedion/recipes/jade_block.json
+683372dfe080fda2b384b36c9157d810faab8d5a data/lithopedion/recipes/jade_from_blasting_deepslate_jade_ore.json
+b7188362438459d13ef17a7665083162f7b94baa data/lithopedion/recipes/jade_from_smelting_deepslate_jade_ore.json

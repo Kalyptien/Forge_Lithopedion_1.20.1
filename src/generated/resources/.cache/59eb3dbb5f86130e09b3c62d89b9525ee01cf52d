@@ -1,0 +1,8 @@
+// 1.20.1	2024-06-02T17:33:18.2057782	Loot Tables
+15880c079120a8151b7fec3c47e3015e3d5ef981 data/lithopedion/loot_tables/blocks/deepslate_jade_ore.json
+a3ab4658111ef36aeef5994d296b131146403dad data/lithopedion/loot_tables/blocks/jade_block.json
+3688c006f10dea5405fc41fc00b36535017901dd data/lithopedion/loot_tables/entities/goblinskeleton.json
+e2400a0bcbb78327d12dd2e950c84139108bd203 data/lithopedion/loot_tables/entities/mermaidskeleton.json
+b491c84b1a7e027bce57412560101ce09cb4408b data/lithopedion/loot_tables/entities/nagaskeleton.json
+72cb44d3aa4ab7a4cf035ee9edd0ebf94c42bf4e data/lithopedion/loot_tables/entities/oniskeleton.json
+0f1734c7aba6c0581fc655d9ec1623ff2eaa5bf8 data/lithopedion/loot_tables/entities/tenguskeleton.json
