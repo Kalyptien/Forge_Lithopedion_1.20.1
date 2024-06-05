@@ -1,7 +1,12 @@
-// 1.20.1	2024-06-02T16:30:21.3835239	Item Models: lithopedion
+// 1.20.1	2024-06-03T19:02:17.1284987	Item Models: lithopedion
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/lithopedion/models/item/goblinskeleton_spawn_egg.json
 e2f2b70060fb5ab5669d60bd7e0b3207bddab24e assets/lithopedion/models/item/goblin_heart.json
 ebd81786fa67cf8ce7ca00f53bb9ff077822a7e9 assets/lithopedion/models/item/jade.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/lithopedion/models/item/mermaidskeleton_spawn_egg.json
 64c5dc2459fd4374a99ed7906c4ad10c9f7f97fa assets/lithopedion/models/item/mermaid_heart.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/lithopedion/models/item/nagaskeleton_spawn_egg.json
 2a7b8a28d8a0bc6074695e6cbe06654f6fe36859 assets/lithopedion/models/item/naga_heart.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/lithopedion/models/item/oniskeleton_spawn_egg.json
 9b37414dc00eb651d3fdf172e6c379c902d528b5 assets/lithopedion/models/item/oni_heart.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/lithopedion/models/item/tenguskeleton_spawn_egg.json
 c0edfa46566c5cce394f9f1dddb452bd741167e9 assets/lithopedion/models/item/tengu_heart.json

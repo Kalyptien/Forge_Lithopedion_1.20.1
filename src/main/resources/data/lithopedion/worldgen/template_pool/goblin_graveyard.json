@@ -1,0 +1,17 @@
+{
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "lithopedion:goblin_graveyard",
+
+        "processors": "lithopedion:goblin_graveyard",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

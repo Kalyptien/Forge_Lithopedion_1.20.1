@@ -1,32 +1,34 @@
-[02juin2024 22:02:51.521] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\loupp\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, lithopedion, --all, --output, D:\Code\Forge_Lithopedion_1.20.1\src\generated\resources, --existing, D:\Code\Forge_Lithopedion_1.20.1\src\main\resources]
-[02juin2024 22:02:51.528] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[02juin2024 22:02:51.732] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[02juin2024 22:02:51.808] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/loupp/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[02juin2024 22:02:52.490] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\loupp\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[02juin2024 22:02:52.498] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\loupp\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[02juin2024 22:02:52.503] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\loupp\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[02juin2024 22:02:52.511] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\loupp\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[02juin2024 22:02:52.714] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[02juin2024 22:02:54.907] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[02juin2024 22:02:54.912] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\loupp\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, lithopedion, --all, --output, D:\Code\Forge_Lithopedion_1.20.1\src\generated\resources, --existing, D:\Code\Forge_Lithopedion_1.20.1\src\main\resources]
-[02juin2024 22:02:55.523] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using D:\Code\Forge_Lithopedion_1.20.1\build\createSrgToMcp\output.srg
-[02juin2024 22:02:56.188] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [lithopedion]
-[02juin2024 22:03:03.082] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[02juin2024 22:03:03.084] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[02juin2024 22:03:03.199] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
-[02juin2024 22:03:04.068] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/loupp/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[02juin2024 22:03:04.068] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/loupp/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[02juin2024 22:03:04.513] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[02juin2024 22:03:04.585] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 70 ms
-[02juin2024 22:03:04.585] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[02juin2024 22:03:04.747] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 160 ms
-[02juin2024 22:03:04.747] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: lithopedion
-[02juin2024 22:03:05.012] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: lithopedion finished after 265 ms
-[02juin2024 22:03:05.012] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: lithopedion
-[02juin2024 22:03:05.019] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: lithopedion finished after 6 ms
-[02juin2024 22:03:05.019] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id lithopedion
-[02juin2024 22:03:05.037] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id lithopedion finished after 17 ms
-[02juin2024 22:03:05.037] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id lithopedion
-[02juin2024 22:03:05.039] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id lithopedion finished after 1 ms
-[02juin2024 22:03:05.039] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 526 ms
-[02juin2024 22:03:05.048] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 29, old count: 29, new count: 30, removed stale: 0, written: 0
+[03juin2024 19:02:06.155] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\loupp\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, lithopedion, --all, --output, D:\Code\Forge_Lithopedion_1.20.1\src\generated\resources, --existing, D:\Code\Forge_Lithopedion_1.20.1\src\main\resources]
+[03juin2024 19:02:06.164] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[03juin2024 19:02:06.308] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[03juin2024 19:02:06.367] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/loupp/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[03juin2024 19:02:06.853] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\loupp\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[03juin2024 19:02:06.861] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\loupp\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[03juin2024 19:02:06.867] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\loupp\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[03juin2024 19:02:06.874] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\loupp\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[03juin2024 19:02:07.088] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[03juin2024 19:02:09.002] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03juin2024 19:02:09.005] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\loupp\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, lithopedion, --all, --output, D:\Code\Forge_Lithopedion_1.20.1\src\generated\resources, --existing, D:\Code\Forge_Lithopedion_1.20.1\src\main\resources]
+[03juin2024 19:02:09.548] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using D:\Code\Forge_Lithopedion_1.20.1\build\createSrgToMcp\output.srg
+[03juin2024 19:02:10.050] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [lithopedion]
+[03juin2024 19:02:15.757] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[03juin2024 19:02:15.762] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[03juin2024 19:02:15.852] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
+[03juin2024 19:02:16.483] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/loupp/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[03juin2024 19:02:16.484] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/loupp/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.0_mapped_parchment_2023.09.03-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[03juin2024 19:02:16.758] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[03juin2024 19:02:16.810] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 51 ms
+[03juin2024 19:02:16.810] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[03juin2024 19:02:16.873] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 63 ms
+[03juin2024 19:02:16.874] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: lithopedion
+[03juin2024 19:02:17.070] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: lithopedion finished after 195 ms
+[03juin2024 19:02:17.070] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: lithopedion
+[03juin2024 19:02:17.088] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: lithopedion finished after 18 ms
+[03juin2024 19:02:17.088] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id lithopedion
+[03juin2024 19:02:17.106] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id lithopedion finished after 17 ms
+[03juin2024 19:02:17.106] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id lithopedion
+[03juin2024 19:02:17.107] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id lithopedion finished after 0 ms
+[03juin2024 19:02:17.108] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[03juin2024 19:02:17.126] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 18 ms
+[03juin2024 19:02:17.127] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 369 ms
+[03juin2024 19:02:17.142] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 37, old count: 32, new count: 38, removed stale: 0, written: 5

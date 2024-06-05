@@ -24,6 +24,12 @@ public class ModItemModelProvider  extends ItemModelProvider {
         simpleItem(ModItems.MERMAID_HEART);
         simpleItem(ModItems.TENGU_HEART);
         simpleItem(ModItems.NAGA_HEART);
+
+        withExistingParent(ModItems.NAGASKELETON_SPANW_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        withExistingParent(ModItems.ONISKELETON_SPANW_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        withExistingParent(ModItems.GOBLINSKELETON_SPANW_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        withExistingParent(ModItems.TENGUSKELETON_SPANW_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        withExistingParent(ModItems.MERMAIDSKELETON_SPANW_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

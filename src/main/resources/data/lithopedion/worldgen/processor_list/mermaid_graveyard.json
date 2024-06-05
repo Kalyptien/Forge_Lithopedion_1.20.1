@@ -1,0 +1,32 @@
+{
+  "processors": [
+    {
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "lithopedion:archeology/mermaid_graveyard"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:tag_match",
+              "tag": "lithopedion:graveyard_replaceable"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:suspicious_gravel",
+              "Properties": {
+                "dusted": "0"
+              }
+            }
+          }
+        ]
+      },
+      "limit": 30,
+      "processor_type": "minecraft:capped"
+    }
+  ]
+}

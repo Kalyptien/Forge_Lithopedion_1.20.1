@@ -1,0 +1,4 @@
+// 1.20.1	2024-06-03T13:30:17.3732412	Registries
+479aea0a4e9f6ecfef8d49af5b96f49bd8bf6950 data/lithopedion/forge/biome_modifier/add_jade_ore.json
+19f6558c0439638e956231bf2f97d6a1d364eef5 data/lithopedion/worldgen/configured_feature/jade_ore.json
+8e5bc6678bc4b5e94d0f8f5b5049102a3d36f0e1 data/lithopedion/worldgen/placed_feature/jade_ore_placed.json

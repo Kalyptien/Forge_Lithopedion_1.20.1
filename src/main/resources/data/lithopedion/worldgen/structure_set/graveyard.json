@@ -1,0 +1,33 @@
+{
+  "structures": [
+    {
+      "structure": "lithopedion:naga_graveyard",
+      "weight": 1
+    },
+    {
+      "structure": "lithopedion:goblin_graveyard",
+      "weight": 1
+    },
+    {
+      "structure": "lithopedion:tengu_graveyard",
+      "weight": 1
+    },
+    {
+      "structure": "lithopedion:oni_graveyard",
+      "weight": 1
+    },
+    {
+      "structure": "lithopedion:mermaid_graveyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1642136474,
+
+    "spacing": 20,
+
+    "separation": 5,
+
+    "type": "minecraft:random_spread"
+  }
+}

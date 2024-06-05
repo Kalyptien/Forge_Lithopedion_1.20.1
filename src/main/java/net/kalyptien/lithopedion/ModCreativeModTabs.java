@@ -31,6 +31,12 @@ public class ModCreativeModTabs {
 
                 output.accept(ModBlocks.JADE_BLOCK.get());
                 output.accept(ModBlocks.DEEPSLATE_JADE_ORE.get());
+
+                output.accept(ModItems.NAGASKELETON_SPANW_EGG.get());
+                output.accept(ModItems.ONISKELETON_SPANW_EGG.get());
+                output.accept(ModItems.MERMAIDSKELETON_SPANW_EGG.get());
+                output.accept(ModItems.GOBLINSKELETON_SPANW_EGG.get());
+                output.accept(ModItems.TENGUSKELETON_SPANW_EGG.get());
             })
             .build());
 

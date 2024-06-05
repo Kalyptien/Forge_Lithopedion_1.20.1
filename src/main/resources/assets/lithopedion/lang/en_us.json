@@ -9,6 +9,12 @@
   "item.lithopedion.tengu_heart": "Tengu's Heart",
   "item.lithopedion.goblin_heart": "Goblin's Heart",
 
+  "item.lithopedion.nagaskeleton_spawn_egg": "Naga Spawn Egg",
+  "item.lithopedion.oniskeleton_spawn_egg": "Oni Spawn Egg",
+  "item.lithopedion.mermaidskeleton_spawn_egg": "Mermaid Spawn Egg",
+  "item.lithopedion.tenguskeleton_spawn_egg": "Tengu Spawn Egg",
+  "item.lithopedion.goblinskeleton_spawn_egg": "Goblin Spawn Egg",
+
   "block.lithopedion.jade_block": "Block of Jade",
   "block.lithopedion.deepslate_jade_ore": "Deepslate Jade Ore",
 
