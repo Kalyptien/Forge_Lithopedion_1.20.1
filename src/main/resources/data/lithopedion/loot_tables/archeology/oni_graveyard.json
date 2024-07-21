@@ -13,7 +13,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:raw_beef"
+          "name": "minecraft:beef"
         },
         {
           "type": "minecraft:item",

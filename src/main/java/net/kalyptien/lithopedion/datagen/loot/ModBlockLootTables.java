@@ -26,6 +26,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.JADE_BLOCK.get());
 
+        this.dropSelf(ModBlocks.SCULPTURE_TABLE.get());
+
         this.add(ModBlocks.DEEPSLATE_JADE_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.DEEPSLATE_JADE_ORE.get(), ModItems.JADE.get()));
 

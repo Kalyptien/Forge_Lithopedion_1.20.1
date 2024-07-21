@@ -11,6 +11,7 @@ import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -33,6 +34,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SSS")
                 .pattern("SSS")
                 .define('S', ModItems.JADE.get())
+                .unlockedBy(getHasName(ModItems.JADE.get()), has(ModItems.JADE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SCULPTURE_TABLE.get())
+                .pattern("DDD")
+                .pattern("SJS")
+                .pattern("DDD")
+                .define('J', ModItems.JADE.get())
+                .define('D', Blocks.STONE_SLAB.asItem())
+                .define('S', Blocks.STONE_BRICKS.asItem())
                 .unlockedBy(getHasName(ModItems.JADE.get()), has(ModItems.JADE.get()))
                 .save(pWriter);
 

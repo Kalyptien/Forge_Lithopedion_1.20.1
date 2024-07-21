@@ -1,0 +1,18 @@
+{
+  "type": "lithopedion:sculpture_table",
+  "ingredients": [
+    {
+      "item": "tutorialmod:raw_sapphire"
+    }
+  ],
+  "enchants": [],
+  "binds": [
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "lithopedion:stone_wheel"
+  }
+}

@@ -1,10 +1,15 @@
 package net.kalyptien.lithopedion;
 
 import com.mojang.logging.LogUtils;
+import net.kalyptien.lithopedion.recipe.ModRecipes;
+import net.kalyptien.lithopedion.screen.SculptureTableScreen;
 import net.kalyptien.lithopedion.block.ModBlocks;
+import net.kalyptien.lithopedion.block.entity.ModBlockEntities;
 import net.kalyptien.lithopedion.entity.ModEntities;
 import net.kalyptien.lithopedion.entity.client.UndeadRenderer;
 import net.kalyptien.lithopedion.item.ModItems;
+import net.kalyptien.lithopedion.screen.ModMenuTypes;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -38,6 +43,11 @@ public class LithopedionMod
         ModEntities.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
+
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);
@@ -68,6 +78,8 @@ public class LithopedionMod
             EntityRenderers.register(ModEntities.MERMAIDSKELETON.get(), UndeadRenderer::new);
             EntityRenderers.register(ModEntities.GOBLINSKELETON.get(), UndeadRenderer::new);
             EntityRenderers.register(ModEntities.TENGUSKELETON.get(), UndeadRenderer::new);
+
+            MenuScreens.register(ModMenuTypes.SCULPTURE_TABLE_MENU.get(), SculptureTableScreen::new);
         }
     }
 }

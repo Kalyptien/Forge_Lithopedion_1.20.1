@@ -37,6 +37,8 @@ public class ModCreativeModTabs {
                 output.accept(ModItems.MERMAIDSKELETON_SPANW_EGG.get());
                 output.accept(ModItems.GOBLINSKELETON_SPANW_EGG.get());
                 output.accept(ModItems.TENGUSKELETON_SPANW_EGG.get());
+
+                output.accept(ModBlocks.SCULPTURE_TABLE.get());
             })
             .build());
 

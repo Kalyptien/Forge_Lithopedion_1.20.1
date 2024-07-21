@@ -1,6 +1,7 @@
 package net.kalyptien.lithopedion.block;
 
 import net.kalyptien.lithopedion.LithopedionMod;
+import net.kalyptien.lithopedion.block.custom.SculptureTableBlock;
 import net.kalyptien.lithopedion.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -33,6 +34,9 @@ public class ModBlocks {
         registerBlockItem(name, toReturn);
         return toReturn;
     }
+
+    public static final RegistryObject<Block> SCULPTURE_TABLE = registerBlock("sculpture_table",
+            () -> new SculptureTableBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion()));
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
